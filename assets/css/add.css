@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+	.projects-filter ul li{
+	display: inline-block;
+    border: 1px solid #FF3D1C;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+
+		}
+	.projects-filter ul li.active {
+    background-color:#FF3D1C;
+    color: #FF3D1C;
+  }
+   .projects__content {
+    position: relative;
+    overflow: hidden;
+  }
+    .projects-filter ul li.active {
+    background-color:#FF3D1C;
+    color:#fff;
+  }
+
+
+
+.whatsApp{
+    position:fixed;
+    width:50px;
+    height:50px;
+    line-height: 50px;
+    bottom:90px;
+    right:30px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:25px;
+  
+    z-index:100;
+}
+.my-whatsApp{
+    margin-top:10px;
+}
+  
+  .phone1{
+    position:fixed;
+    width:50px;
+    height:50px;
+    line-height: 50px;
+    bottom:150px;
+    right:32px;
+    background-color:rgb(36, 35, 116);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:20px;
+  
+    z-index:100;
+}
+.my-phone{
+    margin-top:10px;
+}
+
+
